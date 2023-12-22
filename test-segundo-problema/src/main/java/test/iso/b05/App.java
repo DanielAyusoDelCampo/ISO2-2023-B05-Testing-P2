@@ -24,7 +24,7 @@ public class App
 			double b = in.getDouble();
 			double c = in.getDouble();
 
-			System.out.printf("\nLa ecuacion que el programa va a resolver es %.2fx² + %.2fx + %.2f.\n", a, b, c);
+			System.out.printf("\nLa ecuacion que el programa va a resolver es %.2fx^2 + %.2fx + %.2f.\n", a, b, c);
 			
 			// a = 2, b = -7, c = 3
 			// a = 1, b = -2, c = 1

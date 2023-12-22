@@ -1,4 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
+encoding//src/main/java/ecuacion_2_grado/Ec2oGrado.java=UTF-8
+encoding//src/main/java/ecuacion_2_grado/NoEc2oGradoException.java=UTF-8
+encoding//src/main/java/ecuacion_2_grado/NoRaizRealException.java=UTF-8
+encoding//src/main/java/test/iso/b05/App.java=UTF-8
 encoding//src/test/java=UTF-8
+encoding//src/test/java/test/iso/b05/AppTest.java=UTF-8
 encoding/<project>=UTF-8
