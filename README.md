@@ -1,5 +1,5 @@
 | Integrantes |
 | :--: |
-| Noelia Díaz-Alejo Alejo |
-| Samuel Espejo Gil |
+| Daniel Ayuso Del Campo |
+| Antonio Campallo Gómez |
 
