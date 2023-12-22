@@ -21,7 +21,7 @@ public class AppTest
         double b = -7;
         double c = 3;
         double[] raices = Ec2oGrado.calcularRaices(a, b, c);
-        // Dos raíces reales
+        // Dos raices reales
         assertEquals(raices[0], 3.00);
         assertEquals(raices[1], 0.50);
     }
@@ -34,7 +34,7 @@ public class AppTest
         double b = -2;
         double c = 1;
         double[] raices = Ec2oGrado.calcularRaices(a, b, c);
-        // Una sola raíz
+        // Una sola raiz
         assertEquals(raices[0], 1.00);
         assertEquals(raices[1], 1.00);
         
@@ -47,9 +47,9 @@ public class AppTest
         double a = 1;
         double b = 1;
         double c = 1;
-        // NoRaízRealException. No hay raíces reales
-        NoRaízRealException thrown = assertThrows(  
-        		NoRaízRealException.class, new Executable() {
+        // NoRaizRealException. No hay raices reales
+        NoRaizRealException thrown = assertThrows(  
+        		NoRaizRealException.class, new Executable() {
 					@Override
 					public void execute() throws Throwable {
 						double[] raices = Ec2oGrado.calcularRaices(a, b, c);
@@ -65,7 +65,7 @@ public class AppTest
         double a = 0;
         double b = -1;
         double c = 1;
-        // NoEc2oGradoException. No es ecuación de segundo grado
+        // NoEc2oGradoException. No es ecuacion de segundo grado
         NoEc2oGradoException thrown = assertThrows(  
         		NoEc2oGradoException.class, new Executable() {
 					@Override
@@ -83,9 +83,9 @@ public class AppTest
         double a = -1;
         double b = 0;
         double c = -1;
-        // NoRaízRealException. No hay raíces reales
-        NoRaízRealException thrown = assertThrows(  
-        		NoRaízRealException.class, new Executable() {
+        // NoRaizRealException. No hay raices reales
+        NoRaizRealException thrown = assertThrows(  
+        		NoRaizRealException.class, new Executable() {
 					@Override
 					public void execute() throws Throwable {
 						double[] raices = Ec2oGrado.calcularRaices(a, b, c);
@@ -104,7 +104,7 @@ public class AppTest
         double b = 1;
         double c = -4;
         double[] raices = Ec2oGrado.calcularRaices(a, b, c);
-        // Dos raíces reales
+        // Dos raices reales
         assertEquals(raices[0], 1,56);
         assertEquals(raices[1], -2,56);
         
@@ -118,7 +118,7 @@ public class AppTest
         double b = 8;
         double c = 0;
         double[] raices = Ec2oGrado.calcularRaices(a, b, c);
-        // Dos raíces reales
+        // Dos raices reales
         assertEquals(raices[0], -0,00);
         assertEquals(raices[1], 2,00);
         
@@ -131,9 +131,9 @@ public class AppTest
         double a = 80000;
         double b = -80000;
         double c = 80000;
-        // NoRaízRealException. No hay raíces reales
-        NoRaízRealException thrown = assertThrows(  
-        		NoRaízRealException.class, new Executable() {
+        // NoRaizRealException. No hay raices reales
+        NoRaizRealException thrown = assertThrows(  
+        		NoRaizRealException.class, new Executable() {
 					@Override
 					public void execute() throws Throwable {
 						double[] raices = Ec2oGrado.calcularRaices(a, b, c);
@@ -149,9 +149,9 @@ public class AppTest
         double a = -80000;
         double b = 80000;
         double c = -80000;
-        // NoRaízRealException. No hay raíces reales
-        NoRaízRealException thrown = assertThrows(  
-        		NoRaízRealException.class, new Executable() {
+        // NoRaizRealException. No hay raices reales
+        NoRaizRealException thrown = assertThrows(  
+        		NoRaizRealException.class, new Executable() {
 					@Override
 					public void execute() throws Throwable {
 						double[] raices = Ec2oGrado.calcularRaices(a, b, c);
@@ -169,9 +169,9 @@ public class AppTest
         double a = 8;
         double b = -4;
         double c = 8;
-        // NoRaízRealException. No hay raíces reales
-        NoRaízRealException thrown = assertThrows(  
-        		NoRaízRealException.class, new Executable() {
+        // NoRaizRealException. No hay raices reales
+        NoRaizRealException thrown = assertThrows(  
+        		NoRaizRealException.class, new Executable() {
 					@Override
 					public void execute() throws Throwable {
 						double[] raices = Ec2oGrado.calcularRaices(a, b, c);
